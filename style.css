@@ -1,0 +1,58 @@
+body{
+    color: darkslategray;
+    background-color: bisque;
+    height: 100%;
+}
+header{
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+.states{
+    margin-top: 100px;
+    display: grid;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-between;
+}
+.article{
+    height: 450px;
+}
+.article:hover{
+    height: 450px;
+    background-color: darksalmon;
+    border-radius: 15px;
+}
+img{
+    width: 70%;
+}
+a{
+    color: darkslategray;
+}
+p{  
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.main-article{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.article-header{
+    display: flex;
+}
+.article-img{
+    width: 40%;
+}
+.article-title{
+    text-align: center;
+}
+.p{ 
+    text-align: left;
+}
